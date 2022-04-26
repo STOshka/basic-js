@@ -23,8 +23,6 @@ function encodeLine(str) {
   }
   _str += `${count > 1?count:''}${str[str.length-1]}`;
   return _str;
-  throw new NotImplementedError('Not implemented');
-  // remove line with error and write your code here
 }
 
 module.exports = {

@@ -23,7 +23,6 @@ function repeater(str, options) {
     additionRepeatTimes: options.additionRepeatTimes || 1,
     additionSeparator: options.additionSeparator || '|'
   }
-  console.log(_options);
   let add = new Array(_options.additionRepeatTimes).fill(_options.addition).join(_options.additionSeparator);
   return new Array(_options.repeatTimes).fill(`${str}${add}`).join(_options.separator);
 }
